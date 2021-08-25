@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "sidewaysblocks",
+  "version": "${version}",
+  "name": "Sidewaysblocks",
+  "description": "Adds sideways or vertical variants of common blocks",
+  "authors": [
+    "appcreatorguy"
+  ],
+  "contact": {
+    "website": "github.com/appcreatorguy",
+    "repo": "github.com/appcreatorguy/sideways-blocks-fabric"
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/sidewaysblocks/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.github.appcreatorguy.mods.sidewaysblocks.sidewaysblocks.client.SidewaysblocksClient"
+    ],
+    "main": [
+      "com.github.appcreatorguy.mods.sidewaysblocks.sidewaysblocks.Sidewaysblocks"
+    ]
+  },
+  "mixins": [
+    "sidewaysblocks.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
