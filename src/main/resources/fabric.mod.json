@@ -16,10 +16,10 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "com.github.appcreatorguy.mods.sidewaysblocks.sidewaysblocks.client.SidewaysblocksClient"
+      "com.github.appcreatorguy.mods.sidewaysblocks.client.SidewaysblocksClient"
     ],
     "main": [
-      "com.github.appcreatorguy.mods.sidewaysblocks.sidewaysblocks.Sidewaysblocks"
+      "com.github.appcreatorguy.mods.sidewaysblocks.SidewaysblocksMain"
     ]
   },
   "mixins": [

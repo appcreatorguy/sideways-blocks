@@ -1,4 +1,4 @@
-package com.github.appcreatorguy.mods.sidewaysblocks.sidewaysblocks.client;
+package com.github.appcreatorguy.mods.sidewaysblocks.client;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
